@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchBar{
+    background-color: #3f4142;
+    margin: 2px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 40px;
+}
+
+input:focus{
+    outline: none;
+}
